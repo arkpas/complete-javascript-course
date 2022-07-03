@@ -3,11 +3,11 @@ console.log("\n\n***** ASSIGNMENTS *****\n\n")
 
 const country = "Poland";
 const continent = "Europe";
-let population = 38;
+let population = 37950000;
 
 console.log("Country: ", country);
 console.log("Continent: ", continent);
-console.log("Population (in millions): ", population);
+console.log("Population: ", population);
 
 
 // LECTURE: Data Types
@@ -19,6 +19,26 @@ console.log("Is island: ", isIsIsland);
 
 // LECTURE: let, const and var
 
-const language = "Polski";
+const language = "polish";
 console.log("Language: ", language);
+
+
+// LECTURE: Basic Operators
+
+const halfPopulation = population / 2;
+console.log("Half population: ", halfPopulation);
+
+population++;
+console.log("Population + 1: ", population);
+
+const finlandPopulation = 6000000;
+console.log("Is ", country, " population higher than Finland: ", population > finlandPopulation);
+
+const averagePopulation = 33000000;
+console.log("Is ", country, " population higher than average: ", population > averagePopulation);
+
+const countryDescription = country + " is in " + continent + ", and its " + population / 1000000 + " million population speak " + language + ".";
+console.log(countryDescription);
+
+
 

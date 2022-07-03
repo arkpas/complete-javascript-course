@@ -38,7 +38,6 @@ let nullVar = null;
 console.log("nullVar:", nullVar);
 console.log("type:", typeof nullVar);
 
-*/
 
 // ----- let, const and var -----
 
@@ -55,4 +54,39 @@ console.log("Job: ", job);
 
 lastName = "Paszenda";
 console.log("Last name (global variable): ", lastName);
+*/
 
+
+// ----- Basic Operators -----
+
+const currentYear = 2037;
+const ageJonas = currentYear - 1991;
+const ageSarah = currentYear - 2018;
+
+console.log("Age Jonas: ", ageJonas);
+console.log("Age Sarah: ", ageSarah);
+
+console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+
+
+const firstName = "Jonas";
+const lastName = "Paszenda";
+
+console.log("Full name: ", firstName + " " + lastName);
+
+
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1 = 101
+x--; // x = x - 1 = 100;
+
+console.log("X value: ", x);
+
+
+console.log("Is Jonas older than Sarah: ", ageJonas > ageSarah);
+
+const isSarahFullAge = ageSarah >= 18;
+console.log("Is Sarah full age: ", isSarahFullAge);
+
+console.log("Is Jonas older than Sarah: ", currentYear - 1991 > currentYear - 2018);
