@@ -41,4 +41,9 @@ const countryDescription = country + " is in " + continent + ", and its " + popu
 console.log(countryDescription);
 
 
+// LECTURE: Strings and Template Literals
+
+const countryDescriptionTemplateLiteral = `${country} is in ${continent}, and its ${population / 1000000} million population speak ${language}.`;
+console.log(countryDescriptionTemplateLiteral);
+
 

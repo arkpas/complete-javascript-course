@@ -89,7 +89,7 @@ const isSarahFullAge = ageSarah >= 18;
 console.log("Is Sarah full age: ", isSarahFullAge);
 
 console.log("Is Jonas older than Sarah: ", currentYear - 1991 > currentYear - 2018);
-*/
+
 
 // ----- Operator Precedence -----
 
@@ -107,3 +107,28 @@ const averageAge = (ageJonas + ageSarah) / 2;
 console.log("Jonas age:", ageJonas);
 console.log("Sarah age:", ageSarah);
 console.log("Average age:", averageAge);
+*/
+
+
+// ----- String and Template Literals -----
+
+const firstName = "Arek";
+const job = "programmer";
+const birthYear = 1995;
+const currentYear = 2037;
+const aboutMe = "I'm " + firstName + ", a " + (currentYear - birthYear) + " years old " + job + ".";
+
+console.log(aboutMe);
+
+const aboutMeTemplateLiteral = `I'm ${firstName}, a ${currentYear - birthYear} years old ${job}.`;
+
+console.log(aboutMeTemplateLiteral);
+console.log(`Just a regular string...`);
+console.log("String with \n\
+multiple \n\
+lines");
+console.log(`String
+with
+multiple
+lines using 
+template literals.`)
