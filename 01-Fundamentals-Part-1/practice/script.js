@@ -54,7 +54,6 @@ console.log("Job: ", job);
 
 lastName = "Paszenda";
 console.log("Last name (global variable): ", lastName);
-*/
 
 
 // ----- Basic Operators -----
@@ -90,3 +89,21 @@ const isSarahFullAge = ageSarah >= 18;
 console.log("Is Sarah full age: ", isSarahFullAge);
 
 console.log("Is Jonas older than Sarah: ", currentYear - 1991 > currentYear - 2018);
+*/
+
+// ----- Operator Precedence -----
+
+const currentYear = 2037;
+const ageJonas = currentYear - 1991;
+const ageSarah = currentYear - 2018;
+
+console.log("Is Jonas older than Sarah:", currentYear - 1991 > currentYear - 2018);
+
+let x, y;
+x = y = 25 - 10 - 5;
+console.log("X:", x, "Y:", y);
+
+const averageAge = (ageJonas + ageSarah) / 2;
+console.log("Jonas age:", ageJonas);
+console.log("Sarah age:", ageSarah);
+console.log("Average age:", averageAge);
