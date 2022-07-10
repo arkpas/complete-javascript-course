@@ -47,3 +47,11 @@ const countryDescriptionTemplateLiteral = `${country} is in ${continent}, and it
 console.log(countryDescriptionTemplateLiteral);
 
 
+// LECTURE: Taking Decisions: if / else Statements
+
+if (population > averagePopulation) {
+    console.log(`${country}'s population is above average.`);
+}
+else {
+    console.log(`${country}'s population is ${(averagePopulation - population) / 1000000} million below average.`);
+}

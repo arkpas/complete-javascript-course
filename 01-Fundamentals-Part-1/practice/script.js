@@ -107,7 +107,6 @@ const averageAge = (ageJonas + ageSarah) / 2;
 console.log("Jonas age:", ageJonas);
 console.log("Sarah age:", ageSarah);
 console.log("Average age:", averageAge);
-*/
 
 
 // ----- String and Template Literals -----
@@ -130,5 +129,33 @@ lines");
 console.log(`String
 with
 multiple
-lines using 
-template literals.`)
+lines using
+template literals.`);
+
+*/
+
+
+// ----- Taking decisions -----
+
+const age = 15;
+
+if (age >= 18) {
+    console.log("Sarah can start driving license 😍");
+}
+else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearsLeft} year(s).`);
+}
+
+
+const birthYear = 1995;
+let century;
+
+if (birthYear <= 2000) {
+    century = 20;
+}
+else {
+    century = 21;
+}
+
+console.log("Century:", century);
